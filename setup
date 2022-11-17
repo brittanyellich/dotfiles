@@ -5,6 +5,6 @@ if [[ $GO_PROXY_PAT ]]; then
 fi
 
 if [[ $TOKEN ]]; then
-  export "GITHUB_TOKEN = $TOKEN"
+  export "GITHUB_TOKEN=$TOKEN"
 fi
 
